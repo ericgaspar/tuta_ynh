@@ -57,6 +57,7 @@ ynh_script_progression "Installing the app..."
 pushd "$install_dir"
  	ynh_hide_warnings ynh_exec_as_app npm ci
  	ynh_hide_warnings ynh_exec_as_app npm run build-packages
+ 	ynh_safe_rm "$install_dir/libs/webassembly/include"
  	ynh_hide_warnings ynh_exec_as_app node webapp prod
 popd
 
