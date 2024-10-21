@@ -19,11 +19,9 @@ ynh_script_progression "Setting up source files..."
 
 #chown -R "$app:www-data" "$install_dir"
 mkdir -p $install_dir
-
 git config --system --add safe.directory $install_dir
-git clone -b https://github.com/tutao/tutanota.git "$install_dir" --quiet
-
 pushd "$install_dir"
+	git clone -b https://github.com/tutao/tutanota.git --quiet
  	git checkout tutanota-release-246.241002.0
  	git submodule init
  	git submodule sync --recursive
