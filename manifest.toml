@@ -64,8 +64,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/foo/bar/archive/refs/tags/v1.2.3.tar.gz"
-    sha256 = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+    url = "https://github.com/tutao/tutanota/archive/refs/tags/tutanota-release-246.241002.0.tar.gz"
+    sha256 = "f67dbde79e1f941ee3615e18a301463657d8a32f3c3ad57bc32757b4292f6170"
 
     # autoupdate.strategy = "latest_github_tag"
 
