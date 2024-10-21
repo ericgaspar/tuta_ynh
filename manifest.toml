@@ -79,10 +79,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.ports]
+    main.default = 9000
 
     [resources.apt]
     packages = "emscripten"
-
-    [resources.database]
-    # This will automatically provision/deprovison a MySQL DB and store the corresponding credentials in settings $db_user, $db_name, $db_pwd
-    type = "mysql"
