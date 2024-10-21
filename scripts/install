@@ -21,7 +21,7 @@ ynh_script_progression "Setting up source files..."
 mkdir -p $install_dir
 git config --system --add safe.directory $install_dir
 pushd "$install_dir"
-	git clone -b https://github.com/tutao/tutanota.git --quiet
+	git clone https://github.com/tutao/tutanota.git --quiet
  	git checkout tutanota-release-246.241002.0
  	git submodule init
  	git submodule sync --recursive
