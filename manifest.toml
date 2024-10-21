@@ -66,4 +66,4 @@ ram.runtime = "50M"
     main.default = 9000
 
     [resources.apt]
-    packages = "emscripten"
+    packages = "emscripten, binaryen"
