@@ -16,8 +16,7 @@ license = "free"
 website = "https://example.com"
 demo = "https://demo.example.com"
 admindoc = "https://github.com/tutao/tutanota/blob/master/doc/BUILDING.md"
-userdoc = "https://yunohost.org/apps"
-code = "https://some.forge.com/example/example"
+code = "https://github.com/tutao/tutanota"
 
 [integration]
 yunohost = ">= 11.2.30"
